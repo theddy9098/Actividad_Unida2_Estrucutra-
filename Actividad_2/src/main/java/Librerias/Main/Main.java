@@ -40,8 +40,13 @@ public class Main {
 
         for( int i:arr)
             System.out.println(i);
-        System.out.println( esAritmetica(arr));
-        System.out.println( esGeometrica(arr));
+        if (esAritmetica(arr)) {
+            System.out.println("El arreglo es una progresión aritmética.");
+        } else if (esGeometrica(arr)) {
+            System.out.println("El arreglo es una progresión geométrica.");
+        } else {
+            System.out.println("El arreglo no cumple ninguna progresión.");
+        }
 
 
 

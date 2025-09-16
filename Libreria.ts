@@ -30,5 +30,11 @@ console.log(Arreglo);
 console.log(detectarOrden(Arreglo));
 
 console.log(Arreglo);
-console.log(esAritmetica(Arreglo));
-console.log(esGeometrica(Arreglo));
+if (esAritmetica) {
+  console.log("El Arreglo es Aritmetico");
+} else if (esGeometrica) {
+  console.log("El Arreglo es  Geometrico");
+} else {
+  console.log("No es Aritmetica ni Geometrica");
+}
+
